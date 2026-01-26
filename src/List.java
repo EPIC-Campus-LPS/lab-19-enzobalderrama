@@ -1,11 +1,10 @@
+import java.util.LinkedList;
 public interface List<E> {
-
     /**
      * Add an element to the end of the list
      * @param element element to add to the list
      */
     public void add(E element);
-
     /**
      * Add an element to the list at index i
      * If index is invalid, throws IndexOutOfBoundsException
