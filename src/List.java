@@ -1,4 +1,3 @@
-
 public interface List<E> {
     /**
      * Add an element to the end of the list
@@ -32,7 +31,7 @@ public interface List<E> {
      * @param i index of the element
      * @return the element
      */
-    public Node<E>  get(int i) throws IndexOutOfBoundsException;
+    public E get(int i) throws IndexOutOfBoundsException;
 
     /**
      * Sets the element at i to a new value
